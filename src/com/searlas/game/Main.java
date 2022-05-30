@@ -6,8 +6,8 @@ import java.awt.event.InputEvent;
 import java.util.Arrays;
 
 public class Main {
-	final static int startx = 283;   //上侧
-	final static int starty = 305;   //左侧
+	final static int startx = 283;   //涓婁晶
+	final static int starty = 305;   //宸︿晶
 	public static void main(String[] args) {
 		Map mymap = new Map();
 		
@@ -39,11 +39,11 @@ public class Main {
 						mymap.updateColor(i, j);
 					}
 					x+=25;
-			//		robot.mouseMove(x, y);//鼠标向右25
+			//		robot.mouseMove(x, y);//榧犳爣鍚戝彸25
 				}
 				x=startx;
 				y+=25;
-			//	robot.mouseMove(x, y);//鼠标向下25
+			//	robot.mouseMove(x, y);//榧犳爣鍚戜笅25
 			}
 			System.out.print(1);
 		}

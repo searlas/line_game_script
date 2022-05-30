@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class Map {
 	public int[][] map =new int[15][23];
-	//mapµÄxÊÇ×ó²à yÊÇÉÏ²à
+	//mapçš„xæ˜¯å·¦ä¾§ yæ˜¯ä¸Šä¾§
 	public ArrayList<Color> listColor = new ArrayList<Color>() ;
 	int chooseColor;
 	Point left=new Point();
@@ -75,7 +75,7 @@ public class Map {
 			for(int j =0;j<23;j++) {
 				robot.mouseMove(x, y);
 				map[i][j]=equalColor(robot.getPixelColor(x, y));
-				x+=25;//Êó±êÏòÓÒ25
+				x+=25;//é¼ æ ‡å‘å³25
 			}
 			x=startx;
 			y+=25;
@@ -98,7 +98,7 @@ public class Map {
 		left.x=0;
 		left.y=0;
 		left.color=-1;
-		//×ó±ßÃ»ÓÐÑÕÉ«·½¿é
+		//å·¦è¾¹æ²¡æœ‰é¢œè‰²æ–¹å—
 	}
 	public void getRightColor(int x,int y) {
 		if(y!=23) {
@@ -114,7 +114,7 @@ public class Map {
 		right.x=-1;
 		right.y=-1;
 		right.color=-1;
-		//ÓÒ±ßÃ»ÓÐÑÕÉ«·½¿é
+		//å³è¾¹æ²¡æœ‰é¢œè‰²æ–¹å—
 	}
 	public void getUpColor(int x,int y) {
 		if(x!=0) {			
@@ -130,7 +130,7 @@ public class Map {
 		up.x=-1;
 		up.y=-1;
 		up.color=-1;
-		//ÉÏ±ßÃ»ÓÐÑÕÉ«·½¿é
+		//ä¸Šè¾¹æ²¡æœ‰é¢œè‰²æ–¹å—
 	}
 	public void getDownColor(int x,int y) {
 		if(x!=15) {
@@ -146,7 +146,7 @@ public class Map {
 		down.x=-1;
 		down.y=-1;
 		down.color=-1;
-		//ÏÂ±ßÃ»ÓÐÑÕÉ«·½¿é
+		//ä¸‹è¾¹æ²¡æœ‰é¢œè‰²æ–¹å—
 	}
 	
 	public boolean isBackground(int x,int y) {
@@ -186,7 +186,7 @@ public class Map {
 		if(!isBackground(x, y)) {
 			return false;
 		}
-		//Ò»¶¨ÒªÊÇ±³¾°É«
+		//ä¸€å®šè¦æ˜¯èƒŒæ™¯è‰²
 		getLeftColor(x,y);
 		getRightColor(x,y);
 		getUpColor(x,y);
@@ -196,7 +196,7 @@ public class Map {
 		int  max =1;
 		for(int i=0;i<4;i++) {
 			if(max<nums) {
-				max = nums;//¼ÇÂ¼×î´ó
+				max = nums;//è®°å½•æœ€å¤§
 			}
 			nums = 1;
 			

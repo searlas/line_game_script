@@ -3,17 +3,17 @@ package com.searlas.game;
 import java.awt.Color;
 
 public class Color_game {
-	final static Color color1 = new Color(247, 247, 247);//°×
-	final static Color color2 = new Color(237, 237, 237);//±³¾°»ÒÉ«
-	final static Color color3 = new Color(255,153,0);//³ÈÉ«
-	final static Color color4 = new Color(204, 102, 0);//¿§·È
-	final static Color color5 = new Color(0, 102, 255);//À¶É«
-	final static Color color6 = new Color(255, 136, 255);//·ÛÉ«
-	final static Color color7 = new Color(204, 204, 102);//ÇàÉ«
-	final static Color color8 = new Color(0, 204, 0);//ÂÌÉ«
-	final static Color color9 = new Color(204, 102, 204);//×ÏÉ«
-	final static Color color10 = new Color(102, 204, 204);//µ­À¶
-	final static Color color11 = new Color(255, 102, 102);//ºìÉ«
-	final static Color color12 = new Color(187, 187, 187);//»ÒÉ«
+	final static Color color1 = new Color(247, 247, 247);//ç™½
+	final static Color color2 = new Color(237, 237, 237);//èƒŒæ™¯ç°è‰²
+	final static Color color3 = new Color(255,153,0);//æ©™è‰²
+	final static Color color4 = new Color(204, 102, 0);//å’–å•¡
+	final static Color color5 = new Color(0, 102, 255);//è“è‰²
+	final static Color color6 = new Color(255, 136, 255);//ç²‰è‰²
+	final static Color color7 = new Color(204, 204, 102);//é’è‰²
+	final static Color color8 = new Color(0, 204, 0);//ç»¿è‰²
+	final static Color color9 = new Color(204, 102, 204);//ç´«è‰²
+	final static Color color10 = new Color(102, 204, 204);//æ·¡è“
+	final static Color color11 = new Color(255, 102, 102);//çº¢è‰²
+	final static Color color12 = new Color(187, 187, 187);//ç°è‰²
 	
 }
